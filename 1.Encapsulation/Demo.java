@@ -1,14 +1,14 @@
 
 class Human {
     
-   private int age;
+   private int age; // data members is private because it can't access outside of the class 
    private String name;
 
-   public int getAge() {
+   public int getAge() { // your method name is says whats your intention is here
     return age;
    }
 
-   public void setAge(int age) {
+   public void setAge(int age) { // private data we can access outside of the class by using member function so that's why it is public
     this.age = age;
    }
 
@@ -20,6 +20,7 @@ class Human {
     this.name = name;
    }
 
+   
 }
 
 public class Demo {
