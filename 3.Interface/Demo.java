@@ -1,37 +1,37 @@
-class Calc{
+
+interface A {
     
-    public int add(int a, int b) {
-        return a + b;
-    }
+    int age= 44;
+    String name= "sagar";
 
-    public int sub(int a, int b) {
-        return a - b;
-    }
-
+    abstract void show();
+    abstract void config();
 }
 
-class AdvCalc {
+class B implements A {
 
-    public int mul(int a, int b) {
-        return a * b;
+    @Override
+    public void show() {
+      System.out.println("in show");
     }
 
-    public double div(int a, int b) {
-        return a / b;
+    @Override
+    public void config() {
+        System.out.println("in config");
     }
+
 }
 
 public class Demo {
     
     public static void main(String[] args) {
         
-        Calc obj1 = new Calc();
-        obj1.add(10, 20);
-        obj1.sub(10, 5);
-
-        AdvCalc obj2 = new AdvCalc();
-        obj2.mul(10, 4);
-        obj2.div(4, 5);
+        A obj;
+        obj = new B();
+        obj.show();
+        obj.config();
+        System.out.println(A.age);
+        System.out.println(A.name);
 
     }
 }
