@@ -7,8 +7,8 @@ class Abc {
    }
 
    public static Abc getInstace() {
-        obj = new Abc();
-    
+
+    if(obj == null ) obj = new Abc();    
     return obj;
    }
    
@@ -20,6 +20,8 @@ public class Demo {
 
         Abc obj1 = Abc.getInstace();
         Abc obj2 = Abc.getInstace();
+
+        System.out.println(obj1 == obj2);
 
     }
 }
