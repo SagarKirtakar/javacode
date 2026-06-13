@@ -7,6 +7,8 @@
 // Multiple Thread
 // Thread prority and sleep
 // Runnable vs Thread
+// Thread States 
+
 
 // class A extends Thread{
 
