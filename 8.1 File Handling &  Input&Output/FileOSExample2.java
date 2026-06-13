@@ -17,9 +17,9 @@ public class FileOSExample2 {
         File f1 = new File("myfile.txt");
 
         FileOutputStream fout;
-        fout = new FileOutputStream(f1, true);
+        fout = new FileOutputStream(f1, false);
 
-        String s = "TATA";
+        String s = "SAGAR KIRTAKAR";
 
         char [] arr = s.toCharArray();
         for(int i = 0; i < arr.length; i++) {
