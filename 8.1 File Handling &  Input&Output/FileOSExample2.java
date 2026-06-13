@@ -7,6 +7,7 @@ import java.io.IOException;
  * @date: 2026-06-13
  */
 
+// Writing from file
 // FileOutputStream using write data in file
 
 public class FileOSExample2 {
