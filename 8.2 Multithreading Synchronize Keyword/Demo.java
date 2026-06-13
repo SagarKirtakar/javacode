@@ -3,11 +3,14 @@
  * @date: 2026-06-13
  */
 
+// Synchronize Keyword in Multithreading....
+
 class Counter {
     
     int count;
 
-    void increament() {
+    public synchronized void increment() 
+    {
         count++;
     }
 }
@@ -15,14 +18,38 @@ class Counter {
 
 public class Demo {
     
-    public static void main(String[] args) {
+    public static void main(String[] args) throws Exception{
        
+        Counter c = new Counter();
 
+        Thread t1 = new Thread(new Runnable() 
+        {
+            @Override
+            public void run() {
+               for (int i = 1; i <=1000; i++) {
+                c.increment();
+               }
+                
+            }
+        });
 
-        Counter obj1 = new Counter();
-        obj1.increament();
+        Thread t2 = new Thread(new Runnable() 
+        {
+            @Override
+            public void run() {
+               for (int i = 1; i <=1000; i++) {
+                c.increment();
+               }
+                
+            }
+        });
 
-        System.out.println("Count is "+ obj1.count);
+        t1.start();
+        t2.start();
+        t1.join();
+        t2.join();
+
+        System.out.println("Count is "+ c.count);
 
     }
 }
