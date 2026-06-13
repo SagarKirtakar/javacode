@@ -3,19 +3,19 @@
  * @date: 2026-06-12
  */
 
-class A{
+class A extends Thread{
 
-    void show() {
-        for(int i = 0; i < 5; i++) {
+    public void run() {
+        for(int i = 0; i <= 100; i++) {
             System.out.println("hi");
         }
     }
 }
 
-class B {
+class B extends Thread{
 
-    void show() {
-        for(int i = 0; i < 5; i++) {
+    public void run() {
+        for(int i = 0; i <= 100; i++) {
             System.out.println("hello");
         }
     }
@@ -25,9 +25,9 @@ public class Demo {
     public static void main(String[] args) {
         
         A a1 = new A();
-        a1.show();
-
         B b1 = new B();
-        b1.show();
+
+        a1.start();
+        b1.start();
     }
 }
