@@ -8,6 +8,8 @@
 // Thread prority and sleep
 // Runnable vs Thread
 // Thread States 
+// Synchronize Keyword
+// Multithreading Inter-thread Communication
 
 
 // class A extends Thread{
