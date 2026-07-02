@@ -18,4 +18,5 @@ public class Example4 {
         ex.m1(ex);
         ex.m2();
     }
+    
 }
