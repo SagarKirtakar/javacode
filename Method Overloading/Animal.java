@@ -8,13 +8,3 @@ public class Animal {
     
 }
 
-class Dog extends Animal {
-    
-    String name = "Vayli";
-
-    @Override
-    void makeSound() {
-        super.makeSound();
-        System.out.println("dog is barking");
-    }
-}
