@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/1.Encapsulation" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/2.Abstract Keyword" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/3.Interface" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/4.Singleton Class" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/5.Immutable Class" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/6.1 Exception Handling" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/6.2 Custom Exception" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/7.1 Multithreading" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/7.2 Synchronize Keyword" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/7.3 Inter-thread Communication" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/8.1 File Handling &amp;  Input&amp;Output" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/8.2 FileOutputStream" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/8.3 FileInputStream" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/8.4 BufferedWriter" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/8.5.1 BufferedReader" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/8.5.2 BufferedReader readLine Method" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/8.5.3 BufferedReader read Method" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Java 8 Streams" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Method Overloading" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Wrapper Class" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/this keyword" isTestSource="false" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>
